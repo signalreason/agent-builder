@@ -1,0 +1,41 @@
+system:
+  name: writing-publishing
+  description: Multi-agent workflow for article publishing and research.
+  version: 1
+
+workflow:
+  pr_process_contract: agent-process-contract.md
+  use_worktrees: true
+  create_draft_prs: true
+
+roles:
+  - name: editor-in-chief
+    description: Defines editorial priorities and approves final pieces.
+  - name: researcher
+    description: Collects sources and verifies claims.
+  - name: writer
+    description: Drafts articles and integrates sources.
+  - name: fact-checker
+    description: Verifies claims and citations.
+  - name: legal-reviewer
+    description: Checks copyright and usage risks.
+  - name: publisher
+    description: Prepares final formatting and publishes.
+
+policies:
+  - plagiarism-check
+  - copyright-compliance
+  - citations-required
+  - ai-assisted-disclosure
+
+templates:
+  pr_body: templates/pr-body.md
+  acceptance_checklist: templates/acceptance-checklist.md
+
+references:
+  - path: references/policies/plagiarism.md
+    purpose: Originality standards and tooling.
+  - path: references/policies/copyright.md
+    purpose: Copyright and fair-use guidance.
+  - path: references/research/source-quality.md
+    purpose: Source credibility rubric.

@@ -1,0 +1,7 @@
+2026-01-10
+- Implemented a minimal YAML parser fallback in scripts/build_system.py when PyYAML is unavailable.
+- Output directories must be empty; the generator refuses to overwrite non-empty paths for safety.
+- Role names are slugified for directory names; mismatches are listed under Open Questions in output.
+- Open questions are rendered in AGENTS.md when defaults are applied or missing fields detected.
+- Policy modules are emitted under references/policies/<policy>.md with built-in stubs for common policies.
+- Draft PR scaffolding is optional and only emitted when create_draft_prs is true.
