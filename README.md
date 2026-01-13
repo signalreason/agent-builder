@@ -4,6 +4,14 @@ Generate a PR-driven multi-agent workflow repo from a YAML brief. The builder
 produces a consistent set of role skills, templates, policies, and helper
 scripts so teams can spin up new systems without re-inventing the workflow.
 
+## Purpose
+- Turn a YAML brief into a complete, PR-driven multi-agent workflow repo.
+
+## Goals
+- Produce deterministic, ASCII-first scaffolding with consistent skills and templates.
+- Embed the PR process contract and optional draft PR scaffolding when enabled.
+- Provide validation and helper scripts so teams can iterate quickly.
+
 ## Quickstart
 
 1. Author a brief YAML (see `examples/briefs/writing-publishing.yml`).
