@@ -12,6 +12,9 @@ scripts so teams can spin up new systems without re-inventing the workflow.
 - Embed the PR process contract and optional draft PR scaffolding when enabled.
 - Provide validation and helper scripts so teams can iterate quickly.
 
+## Highest-Impact Next Step
+- Add fixture-based tests for `scripts/build_system.py` to lock down deterministic output and prevent regressions.
+
 ## Quickstart
 
 1. Author a brief YAML (see `examples/briefs/writing-publishing.yml`).
