@@ -15,11 +15,6 @@ scripts so teams can spin up new systems without re-inventing the workflow.
 ## Highest-Impact Next Step
 - [ ] Add fixture-based tests for `scripts/build_system.py` to lock down deterministic output and prevent regressions.
 
-## Checks
-- Status: none (no GitHub Actions runs found).
-- TODO: Add a CI workflow that generates from `examples/briefs/writing-publishing.yml` and runs `scripts/validate_skills.py` on the output.
-- TODO: Add unit tests for `scripts/build_system.py` and run them in CI.
-
 ## Quickstart
 
 1. Author a brief YAML (see `examples/briefs/writing-publishing.yml`).
