@@ -13,7 +13,7 @@ scripts so teams can spin up new systems without re-inventing the workflow.
 - Provide validation and helper scripts so teams can iterate quickly.
 
 ## Highest-Impact Next Step
-- Add fixture-based tests for `scripts/build_system.py` to lock down deterministic output and prevent regressions.
+- [ ] Add fixture-based tests for `scripts/build_system.py` to lock down deterministic output and prevent regressions.
 
 ## Checks
 - Status: none (no GitHub Actions runs found).
