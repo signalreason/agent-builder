@@ -13,12 +13,12 @@ scripts so teams can spin up new systems without re-inventing the workflow.
 - Provide validation and helper scripts so teams can iterate quickly.
 
 ## Highest-Impact Next Step
-- Add fixture-based tests for `scripts/build_system.py` to lock down deterministic output and prevent regressions.
+- Add fixture-based tests for `scripts/build_system.py` to lock down deterministic output and prevent regressions. ([issue #6](https://github.com/signalreason/agent-builder/issues/6))
 
 ## Checks
 - Status: none (no GitHub Actions runs found).
-- TODO: Add a CI workflow that generates from `examples/briefs/writing-publishing.yml` and runs `scripts/validate_skills.py` on the output.
-- TODO: Add unit tests for `scripts/build_system.py` and run them in CI.
+- TODO: Add a CI workflow that generates from `examples/briefs/writing-publishing.yml` and runs `scripts/validate_skills.py` on the output. ([issue #5](https://github.com/signalreason/agent-builder/issues/5))
+- TODO: Add unit tests for `scripts/build_system.py` and run them in CI. ([issue #6](https://github.com/signalreason/agent-builder/issues/6))
 
 ## Quickstart
 
